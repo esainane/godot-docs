@@ -104,7 +104,7 @@ memnew/memdelete also use a little C++ magic and notify Objects right
 after they are created, and right before they are deleted.
 
 For dynamic memory, use Godot's ``Vector<>`` or one of its variations.
-Godot's ``Vector<>`` behaves much like an STL ``Vector<>``, but is simpler,
+Godot's ``Vector<>`` behaves much like an STL ``std::vector<>``, but is simpler,
 thread safe, and uses Copy-On-Write semantics.
 It can be safely passed via public API.
 
